@@ -7,9 +7,9 @@ workflows:
       android_signing:
         - keystore_reference
       groups:
-        - google_play # <-- (Includes GCLOUD_SERVICE_ACCOUNT_CREDENTIALS)
+        - google_play 
       vars:
-        PACKAGE_NAME: "io.codemagic.flutteryaml" # <-- Put your package name here
+        PACKAGE_NAME: "io.codemagic.flutteryaml" # fikreselam
         GOOGLE_PLAY_TRACK: "alpha"
       flutter: stable
     scripts:
